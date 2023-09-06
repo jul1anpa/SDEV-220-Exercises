@@ -6,6 +6,13 @@ input name's and GPA's of students until they enter a sentinel value in the
 form of ZZZ. Upon entering the sentinel value, the program will then check 
 each student's GPA to determine which have made the Dean's list and which have 
 made Honor Roll. It will then output the names of these students. 
+
+self.students = dictionary that stores student information in the form of key-value pairs
+quit = string variable that stores the sentinel value ZZZ
+data = string representation of the data stored in the class object
+last = string variable that prompts user for last name 
+first = string variable that prompts user for first name
+gpa = float variable that prompts user for GPA
 '''
 
 
@@ -70,7 +77,7 @@ class Students:
     
 
 def main():
-    school = Students()
+    Students()
 
 if __name__ == "__main__":
     main()
