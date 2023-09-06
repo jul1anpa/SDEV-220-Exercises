@@ -13,6 +13,7 @@ data = string representation of the data stored in the class object
 last = string variable that prompts user for last name 
 first = string variable that prompts user for first name
 gpa = float variable that prompts user for GPA
+SEE HERE
 '''
 
 
