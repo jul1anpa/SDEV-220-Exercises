@@ -6,3 +6,6 @@ instance/
 
 # Ignore pycache
 __pycache__/
+
+# Ignore vs code files
+.vscode/
