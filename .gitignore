@@ -1,5 +1,6 @@
 # Ignore virtual environment
 .venv/
+venv/
 
 # Ignore instance folder with database
 instance/
