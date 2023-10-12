@@ -1,5 +1,5 @@
 import multiprocessing as mp
-from multiprocessing import Process, Queue
+from multiprocessing import Process
 import time
 import random as r
 
@@ -18,7 +18,7 @@ if __name__ == "__main__":
     processes = []
     queue_pos = 1
     
-    for i in range(3):
+    for i in range(10):
         p = Process(target=calc_time, args=(r.randint(1, 10), queue_pos))
         processes.append(p)
         p.start()

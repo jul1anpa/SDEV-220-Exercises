@@ -6,7 +6,9 @@ venv/
 instance/
 
 # Ignore pycache
-__pycache__/
+__pycache__
 
 # Ignore vs code files
 .vscode/
+
+.DS_Store
